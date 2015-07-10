@@ -78,8 +78,7 @@ layout: default
 
                 <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
                 <h3 class="ui header"> <a class="post-link" href="{{ post.url }}">{{ post.title }}</a></h3>
-
-                </h3>
+                <p>{{ post.excerpt }}</p>
                </div>
             {% endfor %}
 
