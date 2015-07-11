@@ -2,8 +2,9 @@
 layout: default
 ---
 
+<div class="ui vertical stripe segment">
+<div class="ui raised very padded text container segment">
 <div class="post container">
-    <div class="ui text container">
   <header class="post-header">
     <h1 class="post-title">{{ page.title }}</h1>
     <p class="post-meta">{{ page.date | date: "%b %-d, %Y" }}{% if page.author %} • {{ page.author }}{% endif %}{% if page.meta %} • {{ page.meta }}{% endif %}</p>
@@ -12,5 +13,6 @@ layout: default
   <article class="post-content">
     {{ content }}
   </article>
-      </div>
+    </div>
 </div>
+    </div>
