@@ -72,16 +72,33 @@ layout: default
     </div>
 
     <div class="ui vertical stripe segment">
-        {% for post in site.posts %}
-        <div class="ui text container">
 
+        <div class="ui vertical stripe segment container">
+            <h3 class="ui header">The Blog</h3>
 
-                <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
-                <h3 class="ui header"> <a class="post-link" href="{{ post.url }}">{{ post.title }}</a></h3>
-                <p>{{ post.excerpt }}</p>
-               </div>
-            {% endfor %}
-
+            <div class="ui two doubling link cards">
+                {% for post in site.posts limit:4 %}
+                <div class="card">
+                    <a class="image" href="{{ post.url }}">
+                        <img src="{{ post.image }}">
+                    </a>
+                    <div class="content">
+                        <div class="header">{{ post.title }}</div>
+                        <div class="meta">
+                            <a>{{ post.description}}</a>
+                        </div>
+                        <div class="description">
+                            <p>{{ post.excerpt }}</p>
+                        </div>
+                    </div>
+                    <div class="extra content">
+                        <span class="right floated">{{ post.date | date: "%b %-d, %Y" }}</span>
+                        <span><i class="tag icon"></i>{{post.categories}}</span>
+                    </div>
+                </div>
+                {% endfor %}
+            </div>
+        </div>
     </div>
 
 </div>
