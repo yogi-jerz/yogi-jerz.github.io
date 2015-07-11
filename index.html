@@ -83,9 +83,9 @@ layout: default
                         <img src="{{ post.image }}">
                     </a>
                     <div class="content">
-                        <div class="header">{{ post.title }}</div>
+                        <a href="{{ post.url }}" class="header">{{ post.title }}</a>
                         <div class="meta">
-                            <a>{{ post.description}}</a>
+                            <a href="{{ post.url}}">{{ post.description}}</a>
                         </div>
                         <div class="description">
                             <p>{{ post.excerpt }}</p>
