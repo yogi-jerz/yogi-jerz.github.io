@@ -15,6 +15,7 @@
     {% include footer.html %}
      <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
      <script src="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.0.0/semantic.min.js"></script>
+     <script src="/javascripts/instagramLite.js"></script>
     <script>
         $(document)
                 .ready(function() {
@@ -37,6 +38,17 @@
                 })
         ;
     </script>
+
+    <script>
+$(function() {
+    $('#instagram').instagramLite({
+        clientID: 'd5e686153b8e40faaf39f30df6872308',
+        username: 'yogi_jerz',
+        list: false,
+});
+
+});
+</script>
   </body>
 
 </html>
