@@ -2,14 +2,23 @@
 layout: default
 ---
 
+
+<div class="ui container">
+    <div class="ui large secondary pointing menu no-border-nav">
+        <a class="item" href="/">Home</a>
+        <a class="active item">Blog</a>
+        <a href="/about" class="item">About</a>
+        <a class="item">Careers</a>
+  
+    </div>
+</div>
 <div class="ui vertical stripe segment">
     <div class="ui text container">
-      <header class="post-header">
-        <h1 class="header">{{ page.title }}</h1>
-        <p class="post-meta">{{ page.date | date: "%b %-d, %Y" }}{% if page.author %} • {{ page.author }}{% endif %}{% if page.meta %} • {{ page.meta }}{% endif %}</p>
-       </header>
-
-         <article class="post-content">
+        <header class="post-header">
+            <h1 class="header">{{ page.title }}</h1>
+            <p class="post-meta">{{ page.date | date: "%b %-d, %Y" }}{% if page.author %} • {{ page.author }}{% endif %}{% if page.meta %} • {{ page.meta }}{% endif %}</p>
+        </header>
+        <article class="post-content">
             {{ content }}
         </article>
     </div>
