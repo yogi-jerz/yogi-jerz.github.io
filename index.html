@@ -3,7 +3,8 @@ layout: default
 ---
 <!-- Page Contents -->
 <div class="pusher">
-    <div class="ui inverted vertical masthead center aligned segment hero-bg">
+    <div class="parallax" data-image="/images/tree-boat.jpg" data-cover-ratio="1" data-width="800">
+        <div class="ui vertical masthead center aligned segment">
         <div class="ui container">
             <div class="ui large secondary pointing menu no-border-nav">
                 <a class="toc item">
@@ -17,17 +18,15 @@ layout: default
                     <a class="ui olive basic button">Contact</a>
                 </div>
             </div>
-        </div>
-        <div class="ui text container">
-            <h1 class="ui inverted header">
+            <div class="ui text container">
+                <h1 class="ui inverted header">
                 Imagine-a-Company
             </h1>
-            <h2>Do whatever you want when you want to.</p>
-                <div class="ui huge primary button">Get Started <i class="right arrow icon"></i></div>
+                <h2>Do whatever you want when you want to.</h2>
+            </div>
         </div>
-
     </div>
-
+    </div>
     <div class="ui vertical stripe segment">
         <div class="ui middle aligned stackable grid container">
             <div class="row">
@@ -48,8 +47,6 @@ layout: default
             </div>
         </div>
     </div>
-
-
     <div class="ui vertical stripe quote segment">
         <div class="ui equal width stackable internally celled grid">
             <div class="center aligned row">
@@ -66,12 +63,9 @@ layout: default
             </div>
         </div>
     </div>
-
     <div class="ui vertical stripe segment">
-
         <div class="ui vertical stripe segment container">
             <h3 class="ui header">The Blog</h3>
-
             <div class="ui two doubling link cards">
                 {% for post in site.posts limit:4 %}
                 <div class="card">
@@ -98,12 +92,8 @@ layout: default
     </div>
     <div class="ui vertical stripe segment container">
         <h3 class="ui header">Instagram</h3>
-       <ul class="instagram-feed-list" id="instagram">
-           
-       </ul>
-       <a href="#" class="load-more-insta" title="Load more images from Instagram">Load more</a>
+        <ul class="instagram-feed-list" id="instagram">
+        </ul>
+        <a href="#" class="load-more-insta" title="Load more images from Instagram">Load more</a>
     </div>
-
 </div>
-
-

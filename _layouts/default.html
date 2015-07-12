@@ -15,41 +15,24 @@
     {% include footer.html %}
      <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
      <script src="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.0.0/semantic.min.js"></script>
+      <script src="/javascripts/imageScroll.min.js"></script>
      <script src="/javascripts/instagramLite.js"></script>
-    <script>
-        $(document)
-                .ready(function() {
-                    // fix menu when passed
-                    $('.masthead')
-                            .visibility({
-                                once: false,
-                                onBottomPassed: function() {
-                                    $('.fixed.menu').transition('fade in');
-                                },
-                                onBottomPassedReverse: function() {
-                                    $('.fixed.menu').transition('fade out');
-                                }
-                            })
-                    ;
-                    // create sidebar and attach to menu open
-                    $('.ui.sidebar')
-                            .sidebar('attach events', '.toc.item')
-                    ;
-                })
-        ;
-    </script>
 
-    <script>
-$(function() {
-    $('#instagram').instagramLite({
-        clientID: 'd5e686153b8e40faaf39f30df6872308',
-        username: 'yogi_jerz',
-        list: true,
-        urls: true,
-        loadMore: '.load-more-insta',
-        limit: 8
-});
+<script>
+$(document).ready(function() {
 
+    $(function() {
+        $('#instagram').instagramLite({
+            clientID: 'd5e686153b8e40faaf39f30df6872308',
+            username: 'yogi_jerz',
+            list: true,
+            urls: true,
+            loadMore: '.load-more-insta',
+            limit: 8
+        });
+
+    });
+    $('.parallax').imageScroll({});
 });
 </script>
   </body>
