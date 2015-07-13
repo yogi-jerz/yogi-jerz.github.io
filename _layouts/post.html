@@ -1,15 +1,17 @@
 ---
 layout: default
 ---
-
-
 <div class="ui left fixed vertical menu">
   <a class="item" href="/">
     <img class="ui small circular bordered image" src="/images/jersey-square.jpg">
   </a>
-  <a class="item" href="/">Home</a>
-  <a class="item" href="/blog/">Blog</a>
-  <a class="item">Contact</a>
+ 
+   {% if page.next %} 
+        <a class="item" rel="next" href="{{ page.next.url }}">Next Artilce <i class="right arrow icon"></i></a>
+    {% endif %}
+    {% if page.previous %} 
+        <a class="item" rel="prev" href="{{ page.previous.url }}">Previous Article <i class="left arrow icon"></i></a>
+    {% endif %}
 </div>
 <div class="ui vertical stripe segment">
     <div class="ui text container">
