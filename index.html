@@ -7,20 +7,15 @@ layout: default
         <div class="ui vertical masthead center aligned segment">
         <div class="ui container">
             <div class="ui large secondary pointing menu no-border-nav">
-                <a class="toc item">
-                    <i class="sidebar icon"></i>
-                </a>
                 <a class="active item">Home</a>
-                <a class="item">Work</a>
-                <a href="/about" class="item">About</a>
-                <a class="item">Careers</a>
+                <a class="item" href="#blog-section">Blog</a>
                 <div class="right item">
                     <a class="ui olive basic button">Contact</a>
                 </div>
             </div>
             <div class="ui text container" id="home-heading">
                 <h1 class="ui inverted header text-shadow">Jersey Griggs</h1>
-                <h2 class="ui inverted header text-shadow">Yoga Teacher, Something, and Something</h2>
+                <h2 class="ui inverted header text-shadow">Yoga Teacher, Ski Bum, Wine Enthuasist</h2>
             </div>
         </div>
     </div>
@@ -61,9 +56,9 @@ layout: default
             </div>
         </div>
     </div>
-    <div class="ui vertical stripe segment">
-        <div class="ui vertical stripe segment container">
-            <h3 class="ui header">The Blog</h3>
+    <div class="gray-hero" id="blog-section">
+    <div class="ui vertical stripe container segment">
+            <h3 class="ui header">From The Blog</h3>
             <div class="ui two doubling link cards">
                 {% for post in site.posts limit:4 %}
                 <div class="card">
@@ -86,8 +81,8 @@ layout: default
                 </div>
                 {% endfor %}
             </div>
-        </div>
     </div>
+</div>
     <div class="ui vertical stripe segment container">
         <h3 class="ui header">Instagram</h3>
         <span class="ig-follow" data-id="c021e650d7" data-handle="yogi_jerz" data-count="true" data-size="small" data-username="true"></span>
