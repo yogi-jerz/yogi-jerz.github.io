@@ -39,9 +39,24 @@ $(document).ready(function() {
 
 
 });
- 
 </script>
-
+<script>
+$(document).ready(function() {
+    $(window).scroll(headerParallax);
+    function headerParallax() {
+        var st = $(window).scrollTop();
+        var headerScroll = $('#home-heading');
+        if (st < 500) {
+            headerScroll.css('opacity', 1 - st / 300);
+            headerScroll.css({
+                '-webkit-transform': 'translateY(' + st / 7 + '%)',
+                '-ms-transform': 'translateY(' + st / 7 + '%)',
+                transform: 'translateY(' + st / 7 + '%)'
+            });
+        }
+    }
+});
+</script>
 <script>(function(d,t){var g=d.createElement(t),s=d.getElementsByTagName(t)[0];g.src="//x.instagramfollowbutton.com/follow.js";s.parentNode.insertBefore(g,s);}(document,"script"));</script>
   </body>
 
