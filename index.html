@@ -3,7 +3,7 @@ layout: default
 ---
 <!-- Page Contents -->
 <div class="pusher">
-    <div class="parallax" data-image="/images/back-warrior-blur-dark.jpg" data-image-mobile="/images/back-warrior-blur-dark.jpg" data-cover-ratio="1" data-width="968" data-height="1296">
+    <div class="parallax"  data-image="/images/stock-flower.jpg" data-image-mobile="/images/stock-flower.jpg" data-cover-ratio=".9" data-width="1600" data-height="1577">
         <div class="ui vertical masthead center aligned segment">
         <div class="ui container">
           
@@ -18,18 +18,18 @@ layout: default
         <div class="ui middle aligned stackable grid container">
             <div class="row">
                 <div class="eight wide column">
-                    <h3 class="ui header">We Help Companies and Companions</h3>
-                    <p>We can give your company superpowers to do things that they never thought possible. Let us delight your customers and empower your needs...through pure data analytics.</p>
-                    <h3 class="ui header">We Make Bananas That Can Dance</h3>
-                    <p>Yes that's right, you thought it was the stuff of dreams, but even bananas can be bioengineered.</p>
+                    <h3 class="ui header">My philosophy</h3>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatum ratione illo quod porro blanditiis. Harum, vitae atque, porro ad aspernatur in, delectus autem minima ratione quia quo odit excepturi placeat.</p>
+                    <h3 class="ui header">About Me</h3>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Placeat ipsa doloribus a nobis eveniet, inventore iusto natus, quae dignissimos, commodi alias sit asperiores deleniti quam blanditiis distinctio nulla magnam hic.</p>
                 </div>
                 <div class="six wide right floated column">
-                    <img src="/images/warrior-log.jpg" class="ui large bordered rounded image">
+                    <img class="ui circular bordered image" src="/images/back-warrior-square.jpg" alt="">
                 </div>
             </div>
             <div class="row">
                 <div class="center aligned column">
-                    <a class="ui huge button">Contact Me</a>
+                    <a class="ui huge basic olive button">Contact Me</a>
                 </div>
             </div>
         </div>
@@ -38,18 +38,18 @@ layout: default
         <div class="ui equal width stackable internally celled grid">
             <div class="center aligned row">
                 <div class="column">
-                    <h3>"What a Company"</h3>
+                    <h3>"Jersey is very thoughtful and very personable"</h3>
                     <p>That is what they all say about us</p>
                 </div>
                 <div class="column">
-                    <h3>"I shouldn't have gone with their competitor."</h3>
+                    <h3>"My Best Class Ever!!"</h3>
                     <p>
                         <img src="http://lorempixel.com/400/200/" class="ui avatar image"> <b>Nan</b> Chief Fun Officer Acme Toys
                     </p>
                 </div>
             </div>
         </div>
-    </div>
+    </div>    
     <div class="gray-hero" id="blog-section">
     <div class="ui vertical stripe container segment">
             <h3 class="ui header">From The Blog</h3>
@@ -102,6 +102,30 @@ $(document).ready(function() {
             });
         }
     }
+});
+</script>
+<script>
+$(document).ready(function() {
+
+    $(function() {
+        $('#instagram').instagramLite({
+            clientID: 'd5e686153b8e40faaf39f30df6872308',
+            username: 'yogi_jerz',
+            list: true,
+            urls: true,
+            loadMore: '.load-more-insta',
+            limit: 4
+        });
+
+    });
+
+
+    var touch = Modernizr.touch;
+    $('.parallax').imageScroll({
+        imageAttribute: (touch === true) ? 'image-mobile' : 'image',
+        touch: touch,
+        speed: 0.4
+    });
 });
 </script>
 
