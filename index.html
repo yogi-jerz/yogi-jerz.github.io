@@ -3,7 +3,7 @@ layout: default
 ---
 <!-- Page Contents -->
 <div class="pusher">
-    <div class="parallax" data-image="/images/back-warrior.JPG" data-image-mobile="/images/back-warrior.JPG" data-cover-ratio="1" data-width="968" data-height="1296">
+    <div class="parallax" data-image="/images/back-warrior-blur-dark.jpg" data-image-mobile="/images/back-warrior-blur-dark.jpg" data-cover-ratio="1" data-width="968" data-height="1296">
         <div class="ui vertical masthead center aligned segment">
         <div class="ui container">
           
@@ -82,7 +82,26 @@ layout: default
         <span class="ig-follow" data-id="c021e650d7" data-handle="yogi_jerz" data-count="true" data-size="small" data-username="true"></span>
         <ul class="instagram-feed-list" id="instagram">
         </ul>
-        <a href="#" class="load-more-insta" title="Load more images from Instagram">Load more</a>
+        <a href="#" class="load-more-insta ui instagram button" title="Load more images from Instagram">Load more</a>
     </div>
 </div>
+<script>
+$(document).ready(function() {
+    $(window).scroll(headerParallax);
+
+    function headerParallax() {
+        var st = $(window).scrollTop();
+        var headerScroll = $('#home-heading');
+
+        if (st < 500) {
+            headerScroll.css('opacity', 1 - st / 300);
+            headerScroll.css({
+                '-webkit-transform': 'translateY(' + st / 7 + '%)',
+                '-ms-transform': 'translateY(' + st / 7 + '%)',
+                transform: 'translateY(' + st / 7 + '%)'
+            });
+        }
+    }
+});
+</script>
 

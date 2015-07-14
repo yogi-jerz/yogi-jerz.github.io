@@ -2,7 +2,7 @@
 <html>
 
   {% include head.html %}
-
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
   <body>
     {% include header.html %}
 
@@ -13,7 +13,7 @@
     </div>
 
 
-     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+     
      <script src="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.0.0/semantic.min.js"></script>
       <script src="/javascripts/imageScroll.min.js"></script>
        <script src=" https://cdnjs.cloudflare.com/ajax/libs/modernizr/2.8.3/modernizr.min.js"></script>
@@ -41,6 +41,25 @@ $(document).ready(function() {
         touch: touch,
         speed: 0.8
     });
+});
+</script>
+<script>
+$(document).ready(function() {
+    $(window).scroll(headerParallax);
+
+    function headerParallax() {
+        var st = $(window).scrollTop();
+        var headerScroll = $('.about-page-headings');
+
+        if (st < 500) {
+            headerScroll.css('opacity', 1 - st / 300);
+            headerScroll.css({
+                '-webkit-transform': 'translateY(' + st / 7 + '%)',
+                '-ms-transform': 'translateY(' + st / 7 + '%)',
+                transform: 'translateY(' + st / 7 + '%)'
+            });
+        }
+    }
 });
 </script>
 <script>(function(d,t){var g=d.createElement(t),s=d.getElementsByTagName(t)[0];g.src="//x.instagramfollowbutton.com/follow.js";s.parentNode.insertBefore(g,s);}(document,"script"));</script>
