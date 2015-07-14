@@ -11,6 +11,13 @@ layout: default
     {% if page.previous %}
     <a class="item" rel="prev" href="{{ page.previous.url }}">Previous Post <i class="left arrow icon"></i></a>
      {% endif %}
+      <a class="item" href="#">
+    <h4 class="ui header">Currently Reading:</h4>
+    <strong><p>{{ page.title }}</p></strong>
+    <p>{{ page.date | date: "%b %-d, %Y" }}</p>
+  </a>
+    
+
 </div>
 <div class="ui vertical stripe segment">
     <div class="ui text container">
