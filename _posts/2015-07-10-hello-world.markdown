@@ -1,10 +1,10 @@
 ---
 layout: post
-title:  "Hello world"
+title:  Hello Bear
 date:   2015-07-10
-categories: cats
+categories: bears
 featured-image: http://placebear.com/400/300
-description: this is a post
+description: Relaxing with a bear
 author: Jersey Griggs
 author-image: /images/jersey-square.jpg
 author-bio: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.

@@ -1,14 +1,14 @@
 .hero-bg {
-    background-image: url("/images/tree-boat.jpg");
-    background-size: cover;
+  background-image: url("/images/tree-boat.jpg");
+  background-size: cover;
 }
 
 .no-border-nav {
-    border: none!important;
+  border: none !important;
 }
 
 .post.container {
-    margin: 0 auto;
+  margin: 0 auto;
 }
 
 // p {
@@ -24,12 +24,13 @@
 //     font-family: 'Oswald', sans-serif!important;
 // }
 
+body.gray-hero,
 .gray-hero {
-    background: #eef2f3;
+  background: #eef2f3;
 }
 
 .center-avatar {
-    border: 7px solid #fff;
-    margin-top: -5%;
-    margin-bottom: -5%;
+  border: 7px solid #fff;
+  margin-top: -5%;
+  margin-bottom: -5%;
 }
