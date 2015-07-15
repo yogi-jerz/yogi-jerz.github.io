@@ -14,7 +14,7 @@ layout: default
         </div>
     </div>
     </div>
-    <div class="ui vertical stripe segment">
+    <div class="ui vertical stripe segment" id="about-me">
         <div class="ui middle aligned stackable grid container">
             <div class="row">
                 <div class="eight wide column">
@@ -29,7 +29,7 @@ layout: default
             </div>
             <div class="row">
                 <div class="center aligned column">
-                    <a class="ui huge olive button">Contact Me</a>
+                    <a class="ui huge olive button modal-trigger">Contact Me</a>
                 </div>
             </div>
         </div>
@@ -106,6 +106,21 @@ layout: default
 </script>
 <script>
 $(document).ready(function() {
+    /* animates and scrolls down to proper location */
+    $(function() {
+        $('a[href*=#]:not([href=#])').click(function() {
+            if (location.pathname.replace(/^\//, '') == this.pathname.replace(/^\//, '') && location.hostname == this.hostname) {
+                var target = $(this.hash);
+                target = target.length ? target : $('[name=' + this.hash.slice(1) + ']');
+                if (target.length) {
+                    $('html,body').animate({
+                        scrollTop: target.offset().top
+                    }, 1000);
+                    return false;
+                }
+            }
+        });
+    });
 
     $(function() {
         $('#instagram').instagramLite({

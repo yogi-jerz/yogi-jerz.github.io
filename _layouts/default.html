@@ -4,24 +4,35 @@
 <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
 
 <body class="{{page.body-class}}">
-    {% include header.html %}
-    <div class="page-content">
-        <div class="wrapper">
-            {{ content }}
-        </div>
+{% include header.html %}
+<div class="page-content">
+    <div class="wrapper">
+        {% include modal.html %}
+        {{ content }}
     </div>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.0.0/semantic.min.js"></script>
-    <script src="/javascripts/imageScroll.min.js"></script>
-    <script src=" https://cdnjs.cloudflare.com/ajax/libs/modernizr/2.8.3/modernizr.min.js"></script>
-    <script src="/javascripts/instagramLite.js"></script>
-    <script>
-    (function(d, t) {
-        var g = d.createElement(t),
-            s = d.getElementsByTagName(t)[0];
-        g.src = "//x.instagramfollowbutton.com/follow.js";
-        s.parentNode.insertBefore(g, s);
-    }(document, "script"));
-    </script>
+</div>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.0.0/semantic.min.js"></script>
+<script src="/javascripts/imageScroll.min.js"></script>
+<script src=" https://cdnjs.cloudflare.com/ajax/libs/modernizr/2.8.3/modernizr.min.js"></script>
+<script src="/javascripts/instagramLite.js"></script>
+<script>
+    $(document).ready(function () {
+       $('.modal-trigger').on('click', function(){
+           $('.ui.modal')
+                   .modal('toggle')
+           ;
+       });
+
+        (function (d, t) {
+            var g = d.createElement(t),
+                    s = d.getElementsByTagName(t)[0];
+            g.src = "//x.instagramfollowbutton.com/follow.js";
+            s.parentNode.insertBefore(g, s);
+        }(document, "script"));
+
+    });
+</script>
+
 </body>
 
 </html>
