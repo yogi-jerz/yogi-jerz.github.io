@@ -2,6 +2,24 @@
   position: relative;
   bottom: -200px;
 }
+
+h1.header {
+  color: #ffffff;
+  font-size: 4rem;
+}
+.date {
+  display: inline-block;
+  float: right;
+  font-weight: 400;
+  font-size: .85714286em;
+  font-style: normal;
+  margin: 0 0 0 .5em;
+  padding: 0;
+  color: rgba(0,0,0,.4);
+}
+.section {
+  padding: 60px 0px;
+}
 .hidden.menu {
     display: none;
 }
