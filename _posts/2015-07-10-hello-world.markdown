@@ -3,7 +3,7 @@ layout: post
 title:  "Hello world"
 date:   2015-07-10
 categories: cats
-image: http://lorempixel.com/400/200/
+featured-image: http://lorempixel.com/400/200/
 description: this is a post
 ---
 
