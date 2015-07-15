@@ -1,7 +1,15 @@
-<form action="https://getsimpleform.com/messages?form_api_token=2932dc53a3a011d6f0db56e6deee37bf" method="post">
-    <!-- the redirect_to is optional, the form will redirect to the referrer on submission -->
-    <input type='hidden' />
+<form class="ui form" action="https://getsimpleform.com/messages?form_api_token=2932dc53a3a011d6f0db56e6deee37bf" method="post">
     <!-- all your input fields here.... -->
-    <input type='text' name='test' />
-    <input type='submit' value='Test form' />
+    <div class="field">
+        <label>Name</label>
+        <input type="text" name="name" placeholder="Name">
+    </div>
+    <div class="field">
+        <label>Name</label>
+        <input type="email" name="email" placeholder="Email">
+    </div>
+    <div class="field">
+        <textarea name="message" placeholder="Message"></textarea>
+     </div>
+    <input class="ui green button" type='submit' value='Send' />
 </form>
