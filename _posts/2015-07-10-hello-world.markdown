@@ -2,6 +2,7 @@
 layout: post
 title:  Hello Bear
 date:   2015-07-10
+comments: true
 categories: bears
 featured-image: http://placebear.com/400/300
 description: Relaxing with a bear
