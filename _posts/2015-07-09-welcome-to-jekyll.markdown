@@ -2,7 +2,7 @@
 layout: post
 title:  "Welcome to Jekyll!"
 date:   2015-07-09 21:04:37
-comments: false
+comments: true
 categories: Dogs
 featured-image: http://unsplash.it/400/300
 description: this is a post
