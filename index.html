@@ -3,25 +3,34 @@ layout: default
 ---
 <!-- Page Contents -->
 <div class="pusher">
-    <div class="parallax"  data-image="/images/stock-flower.jpg" data-image-mobile="/images/stock-flower.jpg" data-cover-ratio=".9" data-width="1600" data-height="1577">
+    <div class="parallax" data-image="/images/stock-flower.jpg" data-image-mobile="/images/stock-flower.jpg"
+         data-cover-ratio=".9" data-width="1600" data-height="1577">
         <div class="ui vertical masthead center aligned segment">
-        <div class="ui container">
-          
-            <div class="ui text container" id="home-heading">
-                <h1 class="ui inverted header text-shadow">Jersey Griggs</h1>
-                <h2 class="ui inverted header text-shadow">Yoga Teacher, Ski Bum, Wine Enthusiast</h2>
+            <div class="ui container">
+
+                <div class="ui text container" id="home-heading">
+                    <h1 class="ui inverted header text-shadow">Jersey Griggs</h1>
+
+                    <h2 class="ui inverted header text-shadow">Yoga Teacher, Ski Bum, Wine Enthusiast</h2>
+                </div>
             </div>
         </div>
-    </div>
     </div>
     <div class="ui vertical stripe segment" id="about-me">
         <div class="ui middle aligned stackable grid container">
             <div class="row">
                 <div class="eight wide column">
                     <h3 class="ui header">My philosophy</h3>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatum ratione illo quod porro blanditiis. Harum, vitae atque, porro ad aspernatur in, delectus autem minima ratione quia quo odit excepturi placeat.</p>
+
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatum ratione illo quod porro
+                        blanditiis. Harum, vitae atque, porro ad aspernatur in, delectus autem minima ratione quia quo
+                        odit excepturi placeat.</p>
+
                     <h3 class="ui header">About Me</h3>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Placeat ipsa doloribus a nobis eveniet, inventore iusto natus, quae dignissimos, commodi alias sit asperiores deleniti quam blanditiis distinctio nulla magnam hic.</p>
+
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Placeat ipsa doloribus a nobis eveniet,
+                        inventore iusto natus, quae dignissimos, commodi alias sit asperiores deleniti quam blanditiis
+                        distinctio nulla magnam hic.</p>
                 </div>
                 <div class="six wide right floated column">
                     <img class="ui circular bordered image" src="/images/back-warrior-square.jpg" alt="Jersey Griggs">
@@ -39,28 +48,34 @@ layout: default
             <div class="center aligned row">
                 <div class="column">
                     <h3>"Jersey is very thoughtful and very personable"</h3>
+
                     <p>That is what they all say about us</p>
                 </div>
                 <div class="column">
                     <h3>"My Best Class Ever!!"</h3>
+
                     <p>
-                        <img src="http://lorempixel.com/400/200/" class="ui avatar image"> <b>Nan</b> Chief Fun Officer Acme Toys
+                        <img src="http://lorempixel.com/400/200/" class="ui avatar image"> <b>Nan</b> Chief Fun Officer
+                        Acme Toys
                     </p>
                 </div>
             </div>
         </div>
     </div>
     <div class="gray-hero" id="blog-section">
-    <div class="ui vertical stripe container segment">
+        <div class="ui vertical stripe container segment">
             <h3 class="ui header">From The Blog</h3>
+
             <div class="ui two doubling link cards">
                 {% for post in site.posts limit:4 %}
                 <div class="card">
                     <a class="image" href="{{ post.url }}">
                         <img src="{{ post.featured-image }}">
                     </a>
+
                     <div class="content">
                         <a href="{{ post.url }}" class="header">{{ post.title }}</a>
+
                         <div class="meta">
                             <a href="{{ post.url}}">{{ post.description}}</a>
                         </div>
@@ -75,72 +90,60 @@ layout: default
                 </div>
                 {% endfor %}
             </div>
+        </div>
     </div>
-</div>
     <div class="ui vertical stripe segment container">
         <h3 class="ui header">Instagram</h3>
-        <span class="ig-follow" data-id="c021e650d7" data-handle="yogi_jerz" data-count="true" data-size="small" data-username="true"></span>
+        <span class="ig-follow" data-id="c021e650d7" data-handle="yogi_jerz" data-count="true" data-size="small"
+              data-username="true"></span>
         <ul class="instagram-feed-list" id="instagram">
         </ul>
-        <a href="#" class="load-more-insta ui instagram button" title="Load more images from Instagram">Load more</a>
+        <div class="ui middle aligned  grid container">
+            <div class="row">
+                <div class="center aligned column">
+                    <a href="#" class="load-more-insta ui instagram button" title="Load more images from Instagram"><i class="refresh icon"></i> Load More</a>
+                </div>
+            </div>
+        </div>
     </div>
 </div>
 <script>
-// $(document).ready(function() {
-//     $(window).scroll(headerParallax);
-
-//     function headerParallax() {
-//         var st = $(window).scrollTop();
-//         var headerScroll = $('#home-heading');
-
-//         if (st < 500) {
-//             headerScroll.css('opacity', 1 - st / 300);
-//             headerScroll.css({
-//                 '-webkit-transform': 'translateY(' + st / 7 + '%)',
-//                 '-ms-transform': 'translateY(' + st / 7 + '%)',
-//                 transform: 'translateY(' + st / 7 + '%)'
-//             });
-//         }
-//     }
-// });
-</script>
-<script>
-$(document).ready(function() {
-    /* animates and scrolls down to proper location */
-    $(function() {
-        $('a[href*=#]:not([href=#])').click(function() {
-            if (location.pathname.replace(/^\//, '') == this.pathname.replace(/^\//, '') && location.hostname == this.hostname) {
-                var target = $(this.hash);
-                target = target.length ? target : $('[name=' + this.hash.slice(1) + ']');
-                if (target.length) {
-                    $('html,body').animate({
-                        scrollTop: target.offset().top
-                    }, 1000);
-                    return false;
+    $(document).ready(function () {
+        /* animates and scrolls down to proper location */
+        $(function () {
+            $('a[href*=#]:not([href=#])').click(function () {
+                if (location.pathname.replace(/^\//, '') == this.pathname.replace(/^\//, '') && location.hostname == this.hostname) {
+                    var target = $(this.hash);
+                    target = target.length ? target : $('[name=' + this.hash.slice(1) + ']');
+                    if (target.length) {
+                        $('html,body').animate({
+                            scrollTop: target.offset().top
+                        }, 1000);
+                        return false;
+                    }
                 }
-            }
-        });
-    });
-
-    $(function() {
-        $('#instagram').instagramLite({
-            clientID: 'd5e686153b8e40faaf39f30df6872308',
-            username: 'yogi_jerz',
-            list: true,
-            urls: true,
-            loadMore: '.load-more-insta',
-            limit: 9
+            });
         });
 
-    });
+        $(function () {
+            $('#instagram').instagramLite({
+                clientID: 'd5e686153b8e40faaf39f30df6872308',
+                username: 'yogi_jerz',
+                list: true,
+                urls: true,
+                loadMore: '.load-more-insta',
+                limit: 9
+            });
+
+        });
 
 
-    var touch = Modernizr.touch;
-    $('.parallax').imageScroll({
-        imageAttribute: (touch === true) ? 'image-mobile' : 'image',
-        touch: touch,
-        speed: 0.7
+        var touch = Modernizr.touch;
+        $('.parallax').imageScroll({
+            imageAttribute: (touch === true) ? 'image-mobile' : 'image',
+            touch: touch,
+            speed: 0.7
+        });
     });
-});
 </script>
 
