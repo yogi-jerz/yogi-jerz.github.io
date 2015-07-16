@@ -29,11 +29,9 @@ layout: default
 <div class="ui text container">
     <article class="post-content">
         <section class="section">
-            <div class="date">
-            {{ page.date | date: "%b %-d, %Y" }}
-                </div>
+            {{ content }}
         </section>
-        {{ content }}
+
     </article>
     <div class="ui vertical stripe center aligned segment">
         {% if page.previous %}

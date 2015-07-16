@@ -17,14 +17,21 @@ body-class: gray-hero
                 <div class="content">
                     <a href="{{ post.url }}" class="header">{{ post.title }}</a>
 
-                    <p>{{ post.description }}</p>
-                    <p class="date">
-                        {{ post.date | date: "%b %-d, %Y" }}
-                    </p>
+                    <div class="meta">
+                     <span class="date">
+                     {{ post.date | date: "%b %-d, %Y" }}
+                        </span>
+                    </div>
                 </div>
+                <div class="extra content">
+                  <span>
+                  <i class="tag icon"></i>{{post.categories}}
+                  </span>
 
+                </div>
             </div>
         </div>
         {% endfor %}
     </div>
 </div>
+
