@@ -1,23 +1,6 @@
 ---
 layout: default
 ---
-<div class="ui left fixed vertical menu">
-    <a class="item" href="/">
-        <img class="ui small circular bordered image" src="/images/back-warrior-square.jpg" alt="Jersey Griggs"/>
-    </a>
-    {% if page.next %}
-    <a class="item" rel="next" href="{{ page.next.url }}">Next Post <i class="right arrow icon"></i></a>
-    {% endif %}
-    {% if page.previous %}
-    <a class="item" rel="prev" href="{{ page.previous.url }}">Previous Post <i class="left arrow icon"></i></a>
-    {% endif %}
-    <a class="item" href="#">
-        <h4 class="ui header">Currently Reading:</h4>
-        <strong><p>{{ page.title }}</p></strong>
-
-        <p>{{ page.date | date: "%b %-d, %Y" }}</p>
-    </a>
-</div>
 <div class="parallax" data-image="{{ page.featured-image }}" data-image-mobile="{{ page.featured-image }}"
      data-cover-ratio=".66">
     <div class="ui text container center aligned">
@@ -36,7 +19,7 @@ layout: default
         </section>
 
     </article>
-    <div class="ui vertical stripe center aligned segment">
+    <div class="ui vertical stripe center aligned segment" style="padding:60px 0;">
         {% if page.previous %}
         <a class="ui labeled icon button" href="{{ page.previous.url }}"><i class="left arrow icon"></i>Previous
             Post</a>
