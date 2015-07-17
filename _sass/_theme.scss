@@ -25,11 +25,17 @@ h1.header {
   padding: 0;
   color: rgba(0, 0, 0, .4);
 }
+.social-wrap {
+  float: right;
+}
 
 .section {
   padding: 60px 0px;
 }
 
+.subsection {
+  padding-top: 30px;
+}
 .hidden.menu {
   display: none;
 }

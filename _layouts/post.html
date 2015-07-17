@@ -30,6 +30,9 @@ layout: default
     <article class="post-content">
         <section class="section">
             {{ content }}
+            <section class="subsection">
+                {% include social.html %}
+            </section>
         </section>
 
     </article>
@@ -40,7 +43,7 @@ layout: default
         {% endif %}
         {% if page.next %}
         <a class="ui right labeled icon button" href="{{ page.next.url }}"><i class="right arrow icon"></i>Next Post</a>
-        {% endif %}
+        {% endif %} 
     </div>
 
     <section class="section">

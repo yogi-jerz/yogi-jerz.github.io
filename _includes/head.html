@@ -5,6 +5,33 @@
 
   <title>{% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}</title>
   <meta name="description" content="{% if page.excerpt %}{{ page.excerpt | strip_html | strip_newlines | truncate: 160 }}{% else %}{{ site.description }}{% endif %}">
+  <meta name="author" content="Jersey Griggs">
+  <meta property="og:title" content="{{ page.title }}" />
+  <meta property="og:description" content="{{ page.description }}" />
+  <meta content="website" property="og:type">
+  <meta property="og:site_name" content="Yogi Jerz">
+
+  <!-- page url -->
+  {% if page.url == "/index.html" %}
+  <meta property="og:url" content="yogi-jerz.github.io">
+  {% else %}
+  <meta property="og:url" content="yogi-jerz.github.io{{ page.url | replace: "index.html", "" }}">
+  {% endif %}
+
+  <!-- page tags  -->
+  {% if page.tags %}
+    {% for tag in page.tags %}
+    <meta content="{{ tag }}" property="article:tag">
+    {% endfor %}
+  {% endif %}
+
+  <!-- page image -->
+  {% if page.image %}
+    <meta content="{{ page.image }}" property="og:image">
+  {% else %}
+  <meta property="og:image" content="/images/back-warrior-square.jpg">
+  {% endif %}
+
 
   <link href="{{site.baseurl}}css/main.css" rel="stylesheet" type="text/css">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.0.0/semantic.min.css">
@@ -12,4 +39,7 @@
   <link href='http://fonts.googleapis.com/css?family=Oswald:400,300,700' rel='stylesheet' type='text/css'>
   <link rel="canonical" href="{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}">
   <link rel="alternate" type="application/rss+xml" title="{{ site.title }}" href="{{ "/feed.xml" | prepend: site.baseurl | prepend: site.url }}" />
+  <script type="text/javascript">var switchTo5x=true;</script>
+  <script type="text/javascript" src="http://w.sharethis.com/button/buttons.js"></script>
+  <script type="text/javascript">stLight.options({publisher: "69947b74-ba77-4787-a4aa-17bee6f26a21", doNotHash: false, doNotCopy: false, hashAddressBar: false});</script>
 </head>
