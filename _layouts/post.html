@@ -1,14 +1,15 @@
 ---
 layout: default
 ---
-<div class="parallax" data-image="{{ page.featured-image }}" data-image-mobile="{{ page.featured-image }}"
-     data-cover-ratio=".66">
-    <div class="ui text container center aligned">
+<div class="ui vertical masthead center aligned segment" style="background-image: url('{{ page.featured-image }}'); background-size:cover;">
+
+    <div class="ui text container">
         <header class="post-header">
             <h1 class="header text-shadow">{{ page.title }}</h1>
         </header>
     </div>
 </div>
+
 <div class="ui text container">
     <article class="post-content">
         <section class="section">
@@ -26,7 +27,7 @@ layout: default
         {% endif %}
         {% if page.next %}
         <a class="ui right labeled icon button" href="{{ page.next.url }}"><i class="right arrow icon"></i>Next Post</a>
-        {% endif %} 
+        {% endif %}
     </div>
 
     <section class="section">
@@ -35,12 +36,14 @@ layout: default
                 <a class="ui small circular image">
                     <img src="{{ page.author-image }}">
                 </a>
+
                 <div class="content">
                     <p class="header">
                         {% if page.author %}
                         {{ page.author }}
                         {% endif%}
                     </p>
+
                     <div class="description">
                         <p>{{ page.author-bio }}</p>
                     </div>
@@ -49,7 +52,7 @@ layout: default
         </div>
     </section>
     {% if page.comments %}
-        {% include disqus.html %}
+    {% include disqus.html %}
     {% endif %}
     <script>
         $(document).ready(function () {

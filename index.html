@@ -72,7 +72,7 @@ description: Descritption goes here
                 {% for post in site.posts limit:4 %}
                 <div class="card">
                     <a class="image" href="{{ post.url }}">
-                        <img src="{{ post.featured-image }}">
+                        <img src="{{ post.thumbnail }}">
                     </a>
 
                     <div class="content">
@@ -80,9 +80,6 @@ description: Descritption goes here
 
                         <div class="meta">
                             <a href="{{ post.url}}">{{ post.description}}</a>
-                        </div>
-                        <div class="description">
-                            <p>{{ post.excerpt }}</p>
                         </div>
                     </div>
                     <div class="extra content">
