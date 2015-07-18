@@ -1,19 +1,12 @@
-.post-header {
-  position: relative;
-  bottom: -200px;
-  @media (max-width: 700px) {
-    bottom: 0px;
-    h1 {
-      color: #3b3b3b!important;
-      text-shadow: none;
-      margin-bottom: -1em!important;
-    }
-  }
-}
 
-h1.header {
+
+.post-title h1.header {
   color: #ffffff;
   font-size: 4rem;
+  margin-top: 3em;
+  @media only screen and (max-width: 700px) {
+    font-size: 2em;
+  }
 }
 
 .date {
@@ -56,8 +49,12 @@ h1.header {
 .masthead h1.ui.header {
   margin-top: 3em;
   margin-bottom: 0em;
-  font-size: 6em;
+  font-size: 5em;
   font-weight: normal;
+  @media only screen and (max-width: 700px) {
+    font-size: 2em;
+  }
+
 }
 
 .masthead h2.ui.header {
@@ -124,12 +121,7 @@ h1.header {
   .masthead.segment {
     min-height: 350px;
   }
-  .masthead h1.ui.header {
-    font-size: 2em;
-    margin-top: 1.5em;
-    color: #3b3b3b;
-    text-shadow: none;
-  }
+
   .masthead h2.ui.header {
     margin-top: 0.5em;
     font-size: 1.5em;
