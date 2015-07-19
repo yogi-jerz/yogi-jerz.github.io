@@ -131,7 +131,10 @@ description: Descritption goes here
                 list: true,
                 urls: true,
                 loadMore: '.load-more-insta',
-                limit: 9
+                limit: 9,
+                error: function() {
+                    $('.load-more-insta').hide();
+                }
             });
 
         });
