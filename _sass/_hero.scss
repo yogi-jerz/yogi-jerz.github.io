@@ -40,7 +40,7 @@ body.gray-hero,
     @media (min-width: 1600px)  {
       background-position-y: -510px; 
     }
-    @media (min-width: 1050px)  {
+    @media (min-width: 1050px) and (max-width: 1599px)  {
       background-position-y: -250px; 
     }
 }
