@@ -3,19 +3,14 @@ layout: default
 title: Welcome to Yogi Jerz
 description: Descritption goes here
 ---
-<!-- Page Contents -->
-<div class="pusher">
-    <div class="parallax" data-image="/images/stock-flower.jpg" data-image-mobile="/images/stock-flower.jpg"
-         data-cover-ratio=".9" data-width="1600" data-height="1577">
-        <div class="ui vertical masthead center aligned segment">
-            <div class="ui container">
 
-                <div class="ui text container" id="home-heading">
-                    <h1 class="ui inverted header text-shadow">Jersey Griggs</h1>
+    <div class="ui vertical masthead center aligned segment" style="background-image: url('/images/stock-flower.jpg'); background-size:cover; background-position-y: -200px;">
 
-                    <h2 class="ui inverted header text-shadow">Yoga Teacher, Ski Bum, Wine Enthusiast</h2>
-                </div>
-            </div>
+        <div class="ui text container">
+            <header class="post-title">
+                <h1 class="ui inverted header text-shadow">Jersey Griggs</h1>
+                <h2 class="ui inverted header text-shadow">Yoga Teacher, Ski Bum, Wine Enthusiast</h2>
+            </header>
         </div>
     </div>
     <div class="ui vertical stripe segment" id="about-me">
@@ -105,7 +100,6 @@ description: Descritption goes here
             </div>
         </div>
     </div>
-</div>
 <script>
     $(document).ready(function () {
         /* animates and scrolls down to proper location */
@@ -139,13 +133,6 @@ description: Descritption goes here
 
         });
 
-
-        var touch = Modernizr.touch;
-        $('.parallax').imageScroll({
-            imageAttribute: (touch === true) ? 'image-mobile' : 'image',
-            touch: touch,
-            speed: 0.7
-        });
     });
 </script>
 
