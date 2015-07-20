@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="04c14a53-a56a-43a5-b4f8-7c050b9516ac" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_posts/2015-07-19-reasons-yoga-travel.markdown" afterPath="$PROJECT_DIR$/_posts/2015-07-19-reasons-yoga-travel.markdown" />
     </list>
     <ignored path="yogi-jerz.github.io.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -34,10 +34,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="index.html" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="index.html" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.032258064" vertical-offset="70" max-vertical-offset="2160">
+            <state vertical-scroll-proportion="-0.8333333" vertical-offset="70" max-vertical-offset="2160">
               <caret line="6" column="141" selection-start-line="6" selection-start-column="141" selection-end-line="6" selection-end-column="141" />
               <folding>
                 <element signature="n#style#0;n#div#0;n#!!top" expanded="true" />
@@ -88,11 +88,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="2015-07-19-reasons-yoga-travel.markdown" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="2015-07-19-reasons-yoga-travel.markdown" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/_posts/2015-07-19-reasons-yoga-travel.markdown">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-4.2" vertical-offset="0" max-vertical-offset="510">
-              <caret line="7" column="41" selection-start-line="7" selection-start-column="41" selection-end-line="7" selection-end-column="41" />
+            <state vertical-scroll-proportion="0.12116317" vertical-offset="0" max-vertical-offset="619">
+              <caret line="5" column="20" selection-start-line="5" selection-start-column="20" selection-end-line="5" selection-end-column="20" />
               <folding />
             </state>
           </provider>
@@ -150,10 +150,10 @@
         <option value="$PROJECT_DIR$/blog/index.html" />
         <option value="$PROJECT_DIR$/_sass/components/_list.scss" />
         <option value="$PROJECT_DIR$/_posts/2015-07-10-hello-world.markdown" />
-        <option value="$PROJECT_DIR$/_posts/2015-07-19-reasons-yoga-travel.markdown" />
         <option value="$PROJECT_DIR$/_layouts/post.html" />
         <option value="$PROJECT_DIR$/_sass/_theme.scss" />
         <option value="$PROJECT_DIR$/index.html" />
+        <option value="$PROJECT_DIR$/_posts/2015-07-19-reasons-yoga-travel.markdown" />
       </list>
     </option>
   </component>
@@ -737,14 +737,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/_posts/2015-07-19-reasons-yoga-travel.markdown">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-4.2" vertical-offset="0" max-vertical-offset="510">
-          <caret line="7" column="41" selection-start-line="7" selection-start-column="41" selection-end-line="7" selection-end-column="41" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/_layouts/default.html">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-20.75" vertical-offset="42" max-vertical-offset="675">
@@ -789,11 +781,19 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.032258064" vertical-offset="70" max-vertical-offset="2160">
+        <state vertical-scroll-proportion="-0.8333333" vertical-offset="70" max-vertical-offset="2160">
           <caret line="6" column="141" selection-start-line="6" selection-start-column="141" selection-end-line="6" selection-end-column="141" />
           <folding>
             <element signature="n#style#0;n#div#0;n#!!top" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_posts/2015-07-19-reasons-yoga-travel.markdown">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.12116317" vertical-offset="0" max-vertical-offset="619">
+          <caret line="5" column="20" selection-start-line="5" selection-start-column="20" selection-end-line="5" selection-end-column="20" />
+          <folding />
         </state>
       </provider>
     </entry>

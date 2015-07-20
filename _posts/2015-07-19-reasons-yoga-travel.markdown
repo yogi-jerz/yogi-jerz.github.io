@@ -3,7 +3,7 @@ layout: post
 title:  5 Reasons Yoga Travel Tree's Teacher Training Is Not Your Average 200 Hour
 date:   2015-07-19
 comments: true
-categories: Teacher Training
+categories: Teacher-Training
 featured-image: /images/seated-twist.jpg
 thumbnail: /images/seated-twist-thumb.jpg
 description: There are a lot of Yoga Teacher Trainings out there! Want to find out what sets Yoga Travel Tree Apart? Read on to find out why I think YTT is better than the rest.
