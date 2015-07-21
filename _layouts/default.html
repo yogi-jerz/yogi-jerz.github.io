@@ -21,6 +21,9 @@
     $(document).ready(function () {
        $('.modal-trigger').on('click', function(){
            $('.ui.modal')
+                   .modal({
+                       blurring: true
+                   })
                    .modal('toggle')
            ;
        });
