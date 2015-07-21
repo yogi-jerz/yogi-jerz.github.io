@@ -19,11 +19,11 @@
   {% endif %}
 
   <!-- page tags  -->
-  {% if page.tags %}
-    {% for tag in page.tags %}
-    <meta content="{{ tag }}" property="article:tag">
-    {% endfor %}
-  {% endif %}
+ {% if page.image %}
+
+    <meta property="og:image" content="{{ site.url }}/images/{{ page.image }}" />
+
+{% endif %}
 
   <!-- page image -->
   <meta property="og:image" content="{% if page.thumbnail %}
