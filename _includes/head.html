@@ -26,11 +26,7 @@
   {% endif %}
 
   <!-- page image -->
-  {% if page.thumbnail %}
-    <meta content="{{ page.thumbnail }}" property="og:image">
-  {% else %}
-  <meta property="og:image" content="http://yogi-jerz.github.io/images/back-warrior-square.jpg">
-  {% endif %}
+  <meta property="og:image" content="{% if page.thumbnail %}{{ page.thumbnail | prepend: site.baseurl | prepend: site.url }}{% else %}{{ {{baseurl}}/avatar | prepend: site.baseurl | prepend: site.url }}{% endif %}">
 
 
   <link href="{{site.baseurl}}css/main.css" rel="stylesheet" type="text/css">

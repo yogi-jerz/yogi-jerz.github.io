@@ -10,6 +10,7 @@ url: "http://yogi-jerz.github.io/" # the base hostname & protocol for your site
 twitter_username: yogi-jerz
 github_username:  yogi-jerz
 paginate: 4
+avatar:  /images/back-warrior.JPG
 
 # Build settings
 markdown: kramdown
