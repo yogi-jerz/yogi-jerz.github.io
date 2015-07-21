@@ -20,17 +20,9 @@
 
   <!-- page tags  -->
  {% if page.thumbnail %}
-    <meta property="og:image" content="{{ site.url }}/images/{{ page.thumbnail }}" />
- {% else %
-   <meta property="og:image" content="{{ site.url }}/images/back-warrior.JPG" />
-{% endif %}
+    <meta property="og:image" content="{{ page.thumbnail }}" />
+  {% endif %}
 
-  <!-- page image -->
-  <meta property="og:image" content="{% if page.thumbnail %}
-  {{ page.thumbnail | prepend: site.baseurl | prepend: site.url }}
-  {% else %}
-  {{ {{baseurl}}/avatar | prepend: site.baseurl | prepend: site.url }}
-  {% endif %}">
 
 
   <link href="{{site.baseurl}}css/main.css" rel="stylesheet" type="text/css">
