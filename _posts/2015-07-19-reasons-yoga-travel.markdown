@@ -4,12 +4,12 @@ title:  5 Reasons Yoga Travel Tree's Teacher Training Is Not Your Average 200 Ho
 date:   2015-07-19
 comments: true
 categories: Teacher-Training
-featured-image: /images/seated-twist.jpg
-thumbnail: /images/seated-twist-thumb.jpg
+featured-image: /images/ytt-sunset.JPG
+thumbnail:  /images/ytt-sunset.JPG
 description: There are a lot of Yoga Teacher Trainings out there! Want to find out what sets Yoga Travel Tree Apart? Read on to find out why I think YTT is better than the rest.
 author: Jersey Griggs
 author-image: /images/jersey-square.jpg
-author-bio: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+author-bio: Jersey, 200 RYT, first came to yoga as a place to quiet her busy mind and relieve stress. Throughout the years, she has consistently gravitated towards the slower practices of Hatha and Yin, but she has also come to appreciate the sweat and flow of a Vinyasa class. She has found that a daily practice of asana and meditation, combined with a conscious whole foods diet, is the perfect recipe for feeling healthy and happy. A lover of all things outdoors, Jersey especially loves skiing in mountains and swimming in lakes. She is currently teaching yoga in the Boston area and lives with her husband and pup.
 ---
 ##The Teaching Begins on Day 1
 On the first day of our training, when our teachers asked us to break into small groups and teach Sun Salutations, everybody balked. The teaching begins already? People were nervous – and rightfully so! It's scary to try something new, in front of new people, in a new place. I remember stumbling through my words from beginning to end, as if I had never even performed a Sun Sal before. It was not my finest hour. The next day, we had another teaching opportunity and I did a little better, and then even better the following day. Every day, we worked in small groups and were given a diverse teaching opportunity that helped to build our skill sets. Each week progressed us a little further in teaching to a large group; the first week, we stood in front of everyone and taught one pose. The next week, we taught a 10 minute sequence to everyone. By the time we had to teach a whole class, we were old hats at it – and very good teachers, I might add. I have heard of programs where teaching opportunities are extremely limited and a student might teach two poses throughout the entire course. If that had been my case, I'm not sure I would have had the courage to step in front of a class and I know I would not be the teacher I am today.
