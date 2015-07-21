@@ -18,10 +18,10 @@
   <meta property="og:url" content="yogi-jerz.github.io{{ page.url | replace: "index.html", "" }}">
   {% endif %}
 
-  <!-- page tags  -->
+  <!-- page image tags  -->
  {% if page.thumbnail %}
-    <meta property="og:image" content="{{ page.thumbnail }}" />
-  {% endif %}
+    <meta property="og:image" content="{{ site.url }}{{ page.thumbnail }}" />
+{% endif %}
 
 
 
