@@ -20,9 +20,9 @@
 
   <!-- page tags  -->
  {% if page.thumbnail %}
-
     <meta property="og:image" content="{{ site.url }}/images/{{ page.thumbnail }}" />
-
+ {% else %
+   <meta property="og:image" content="{{ site.url }}/images/{{ post.thumbnail }}" />
 {% endif %}
 
   <!-- page image -->
