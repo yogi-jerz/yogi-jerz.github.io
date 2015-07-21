@@ -1,5 +1,5 @@
 p {
-  font-family: 'Roboto', sans-serif!important;
+  font-family: 'Lora', serif!important;
   font-size: 1.4rem;
   @media (max-width: 630px){
     font-size: 1.1rem;
@@ -11,7 +11,11 @@ h3,
 h4,
 h5,
 h6 {
-  font-family: 'Oswald', sans-serif!important;
+  font-family: 'Ubuntu', sans-serif!important;
+}
+
+#about-me p {
+  font-size: 1.2rem;
 }
 video {
   width: 100%;
