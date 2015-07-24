@@ -96,6 +96,13 @@ description: I believe that yoga is accessible to everyone. The key to this acce
     </div>
 <script>
     $(document).ready(function () {
+        $(".homepage-hero").background({
+    source: {
+        poster: "/images/water-still.png",
+        video: "//www.youtube.com/watch?v=EDir9-UoPjo"
+    }
+});
+
         /* animates and scrolls down to proper location */
         $(function () {
             $('a[href*=#]:not([href=#])').click(function () {
