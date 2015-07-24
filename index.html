@@ -31,7 +31,7 @@ description: I believe that yoga is accessible to everyone. The key to this acce
             </div>
             <div class="row">
                 <div class="center aligned column">
-                    <a class="ui huge olive button modal-trigger">Contact Me</a>
+                    <a href="/contact/" class="ui huge olive button">Contact Me</a>
                 </div>
             </div>
         </div>
@@ -94,14 +94,19 @@ description: I believe that yoga is accessible to everyone. The key to this acce
             </div>
         </div>
     </div>
+     <script src="/javascripts/core.js"></script>
+    <script src="/javascripts/transition.js"></script>
+    <script src="/javascripts/background.js"></script>
 <script>
     $(document).ready(function () {
+         $(function () {
         $(".homepage-hero").background({
     source: {
         poster: "/images/water-still.png",
         video: "//www.youtube.com/watch?v=EDir9-UoPjo"
     }
 });
+    });
 
         /* animates and scrolls down to proper location */
         $(function () {
