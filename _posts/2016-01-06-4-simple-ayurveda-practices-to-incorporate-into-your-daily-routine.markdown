@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  4 Simple Ayurveda Practices to Incorporate Into Your Daily Routine
+title:  4 Simple Ayurvedic Practices to Incorporate Into Your Daily Routine
 date:   2016-01-06
 comments: true
 categories: Ayurveda
@@ -10,8 +10,6 @@ description: Ayurveda, the traditional Indian medicinal system and yoga’s 5,00
 author: Jersey Griggs
 author-image: /images/jersey-square.jpg
 ---
-##4 Simple Ayurveda Practices to Incorporate Into Your Daily Routine
-
 Ayurveda, the traditional Indian medicinal system and yoga’s 5,000 year old sister science, is vast and complex, which can often make its practices daunting for newcomers. In actuality, several of Ayurveda’s traditions are simple and easy to attain. Read on to learn about 4 practices that are easy to incorporate into your daily routine and will likely yield positive results.
 
 ##Scrape Your Tongue
