@@ -9,7 +9,6 @@ thumbnail:  /images/ayurveda_image.jpg
 description: Ayurveda, the traditional Indian medicinal system and yoga’s 5,000 year old sister science, is vast and complex, which can often make its practices daunting for newcomers. In actuality, several of Ayurveda’s traditions are simple and easy to attain. Read on to learn about 4 practices that are easy to incorporate into your daily routine and will likely yield positive results.
 author: Jersey Griggs
 author-image: /images/jersey-square.jpg
-author-bio: Jersey first came to yoga as a place to quiet her busy mind and relieve stress. Throughout the years, she has consistently gravitated towards the slower practices of Hatha and Yin, but she has also come to appreciate the sweat and flow of a Vinyasa class. She has found that a daily practice of asana and meditation, combined with a conscious whole foods diet, is the perfect recipe for feeling healthy and happy. Jersey received her 200 hour through Yoga Travel Tree and is now a proud Yoga Travel Tree ambassador – promoting yoga retreats all over the world. A lover of all things outdoors, Jersey especially loves skiing in mountains and swimming in lakes. She is currently teaching yoga in the Boston area and lives with her husband and pup.
 ---
 ##4 Simple Ayurveda Practices to Incorporate Into Your Daily Routine
 

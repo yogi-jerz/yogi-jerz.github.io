@@ -9,7 +9,6 @@ thumbnail:  /images/ytt-sunset.JPG
 description: There are a lot of teacher trainings out there – trying to find one that suits you can be overwhelming. Yoga Travel Tree offers a unique experience that goes well past the physical and truly prepares you to take the next step towards teaching. Read on to learn what sets Yoga Travel Tree apart from the rest.
 author: Jersey Griggs
 author-image: /images/jersey-square.jpg
-author-bio: Jersey first came to yoga as a place to quiet her busy mind and relieve stress. Throughout the years, she has consistently gravitated towards the slower practices of Hatha and Yin, but she has also come to appreciate the sweat and flow of a Vinyasa class. She has found that a daily practice of asana and meditation, combined with a conscious whole foods diet, is the perfect recipe for feeling healthy and happy. Jersey received her 200 hour through Yoga Travel Tree and is now a proud Yoga Travel Tree ambassador – promoting yoga retreats all over the world. A lover of all things outdoors, Jersey especially loves skiing in mountains and swimming in lakes. She is currently teaching yoga in the Boston area and lives with her husband and pup.
 ---
 *There are a lot of teacher trainings out there – trying to find one that suits you can be overwhelming. <a href="http://www.yogatraveltree.com" target="_blank">Yoga Travel Tree</a> offers a unique experience that goes well past the physical and truly prepares you to take the next step towards teaching. Read on to learn what sets Yoga Travel Tree apart from the rest.*
 
