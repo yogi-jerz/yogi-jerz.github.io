@@ -3,7 +3,7 @@ layout: post
 title:  My Favorite Home Remedies for Cold Season
 date:   2016-01-20
 comments: true
-categories: Ayurveda
+categories: Wellness
 featured-image: /images/lemon-tea-featured.jpg
 thumbnail:  /images/lemon-tea-thumb.jpg
 description: With the passing of the new year, winter has finally arrived in New England. Skiing, snow, and cozy nights by the fire are all things I look forward to during the coldest time of year. Unfortunately, wintertime also brings the arrival of sniffling noses, loud coughs and general weariness. All of these factors contribute to my least favorite part of the season - the dreaded winter cold! Winter time is Kapha season and an excess of Kapha leads to an abundance of mucous, which often results in stuffy noses, sinus pressure and a tendency towards stagnation in the body.
