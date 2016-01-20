@@ -5,7 +5,7 @@ date:   2016-01-06
 comments: true
 categories: Ayurveda
 featured-image: /images/ayurveda_image.jpg
-thumbnail:  /images/ayurveda_image.jpg
+thumbnail:  /images/ayurveda_image-thumb.jpg
 description: Ayurveda, the traditional Indian medicinal system and yoga’s 5,000 year old sister science, is vast and complex, which can often make its practices daunting for newcomers. In actuality, several of Ayurveda’s traditions are simple and easy to attain. Read on to learn about 4 practices that are easy to incorporate into your daily routine and will likely yield positive results.
 author: Jersey Griggs
 author-image: /images/jersey-square.jpg
