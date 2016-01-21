@@ -34,7 +34,7 @@ To make the tea, bring two cups of water to boil in a small saucepan. Combine sp
 
 One of my favorite yoga teachers recommended Oregano Oil to me a couple of years ago and I have been hooked ever since. This is my very first go-to when I feel the inklings of a cold coming on - a couple of drops under the tongue and I’m good-to-go!
 
-If you have never tried it, consider yourself warned: oregano oil is pretty expensive (about $30 for a teeny bottle - I use Oreganol P73, which can be found at Whole Foods or online) and it also tastes terrible. Regardless of taste, this stuff is called “nature’s antibiotic” for a reason. Studies have shown it to be antibacterial, anti-analgesic and anti-inflammatory...and it works!
+If you have never tried it, consider yourself warned: oregano oil is pretty expensive (about $30 for a teeny bottle - I use Oreganol P73, which can be found at Whole Foods or online) and it also tastes terrible. Regardless of taste, this stuff is called “nature’s antibiotic” for a reason. Studies have shown it to be antibacterial and anti-inflammatory...and it works!
 
 There are a variety of ways to ingest oregano oil, but I have found 3-4 drops under the tongue, once or twice a day, works best. Oregano oil is powerful stuff and is meant for short-term use only; use for 7-10 days or until you feel better. 
 
