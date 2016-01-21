@@ -1,4 +1,4 @@
-<form class="ui form" action="https://getsimpleform.com/messages?form_api_token=2932dc53a3a011d6f0db56e6deee37bf" method="post">
+<form class="ui form" id="form" action="https://getsimpleform.com/messages?form_api_token=2932dc53a3a011d6f0db56e6deee37bf" method="post">
     <!-- all your input fields here.... -->
     <div class="field">
         <label>Name</label>
@@ -12,4 +12,37 @@
         <textarea name="message" placeholder="Message"></textarea>
      </div>
     <input class="ui green button" type='submit' value='Send' />
+     <div class="ui error message"></div>
 </form>
+
+<script>
+$(document).ready(function() {
+    $('#form')
+        .form({
+            on: 'blur',
+            fields: {
+                name: {
+                    identifier: 'name',
+                    rules: [{
+                        type: 'empty',
+                        prompt: 'Please enter your name'
+                    }]
+                },
+               email: {
+                    identifier: 'email',
+                    rules: [{
+                        type: 'empty',
+                        prompt: 'Please enter your email'
+                    }]
+                },
+                message: {
+                    identifier: 'message',
+                    rules: [{
+                        type: 'empty',
+                        prompt: 'Please write a message'
+                    }]
+                }
+            }
+        });
+});
+</script>
