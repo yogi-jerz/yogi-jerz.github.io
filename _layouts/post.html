@@ -12,13 +12,11 @@ layout: default
     <article class="post-content">
         <section class="section">
             {{ content }}
-            <section class="subsection">
-                {% include social.html %}
-            </section>
+          <!--   <div class="ui divider"></div> -->
         </section>
     </article>
-    <div class="ui vertical stripe center aligned segment" style="padding:60px 0;">
-        <div class="ui divided two column grid">
+
+        <div class="ui divided two column center aligned grid">
             <div class="row">
                  <div class="column">
                 {% if page.previous %}
@@ -40,7 +38,6 @@ layout: default
                 </div>
             </div>
         </div>
-    </div>
     <section class="section">
         <div class="ui items">
             <div class="item">
@@ -55,6 +52,9 @@ layout: default
                     </h4>
                     <div class="description">
                         <p>{{ site.author-bio }}</p>
+                            <section class="subsection">
+                {% include social.html %}
+            </section>
                     </div>
                 </div>
             </div>
