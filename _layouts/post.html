@@ -12,32 +12,31 @@ layout: default
     <article class="post-content">
         <section class="section">
             {{ content }}
-          <!--   <div class="ui divider"></div> -->
+            <!--   <div class="ui divider"></div> -->
         </section>
     </article>
-
-        <div class="ui divided two column center aligned grid">
-            <div class="row">
-                 <div class="column">
+            <section class="section">
+    <div class="ui divided two column center aligned grid">
+        <div class="row">
+            <div class="column">
                 {% if page.previous %}
-               
-                    <a class="ui labeled icon button" href="{{ page.previous.url }}"><i class="left arrow icon"></i>Previous
+                <a class="ui labeled icon button" href="{{ page.previous.url }}"><i class="left arrow icon"></i>Previous
             Post
 
-        </a> 
-       <h4>{{ page.previous.title }}</h4>
-        {% endif %}
-                </div>
-                <div class="column">
-                    {% if page.next %}
-                    <a class="ui right labeled icon button" href="{{ page.next.url }}"><i class="right arrow icon"></i>Next Post
+        </a>
+                <h4>{{ page.previous.title }}</h4> {% endif %}
+            </div>
+            <div class="column">
+                {% if page.next %}
+                <a class="ui right labeled icon button" href="{{ page.next.url }}"><i class="right arrow icon"></i>Next Post
 
-                    </a> 
-                            <h4>{{ page.next.title }}</h4>
-                    {% endif %}
-                </div>
+                    </a>
+                <h4>{{ page.next.title }}</h4> {% endif %}
             </div>
         </div>
+
+    </div>
+       </section>
     <section class="section">
         <div class="ui items">
             <div class="item">
@@ -52,9 +51,9 @@ layout: default
                     </h4>
                     <div class="description">
                         <p>{{ site.author-bio }}</p>
-                            <section class="subsection">
-                {% include social.html %}
-            </section>
+                        <section class="subsection">
+                            {% include social.html %}
+                        </section>
                     </div>
                 </div>
             </div>
