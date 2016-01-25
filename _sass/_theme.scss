@@ -29,8 +29,10 @@ video {
 
 .post-title h1.header {
   color: #ffffff;
-  font-size: 4rem;
-  margin-top: 2.5em;
+  font-size: 3rem;
+  margin-top: 30vh;
+  transform: rotateZ(-6deg);
+  letter-spacing: 2px;
   @media only screen and (max-width: 700px) {
     font-size: 2em;
   }
