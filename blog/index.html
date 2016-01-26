@@ -2,9 +2,27 @@
 layout: default
 body-class: gray-hero
 ---
-
-<div class="ui vertical stripe container segment">
-     <div class="ui four doubling link cards">
+<div class="ui form container" style="top:90px;">
+  <div class="inline fields">
+    <label>Filter:</label>
+     {% for category in site.categories %}
+    <div class="field">
+      <div class="ui radio checkbox">
+        <input type="radio" class="filter" name="frequency" data-filter=".{{ category | first }}">
+        <label>{{ category | first }}</label>
+      </div>
+    </div>
+    {% endfor %}
+       <div class="field">
+      <div class="ui radio checkbox">
+        <input type="radio" class="filter" name="frequency" checked="checked" data-filter=".all" id="Reset">
+        <label>All</label>
+      </div>
+    </div>
+  </div>
+</div>
+<div class="ui vertical stripe container">
+     <div class="ui four doubling link cards" id="Container">
       {% for post in site.posts %}
         <div class="card mix {{post.categories}}">
             <a class="image" href="{{ post.url }}">
@@ -26,3 +44,19 @@ body-class: gray-hero
       {% endfor %}
     </div>
 </div>
+<script>
+   $(function () {
+
+      $('#Container').mixItUp({
+        animation: {
+            enable: false
+        }
+    });
+
+    $('#Reset').change(function() {
+     if(this.checked) {
+        $('#Container').mixItUp('filter', 'all');
+     }
+ });
+});
+</script>
