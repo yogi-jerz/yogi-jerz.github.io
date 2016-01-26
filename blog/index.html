@@ -9,7 +9,7 @@ body-class: gray-hero
     <div class="field">
       <div class="ui radio checkbox">
         <input type="radio" class="filter" name="frequency" data-filter=".{{ category | first }}">
-        <label>{{ category | first }}</label>
+        <label style="text-transform: capitalize;">{{ category | first }}</label>
       </div>
     </div>
     {% endfor %}
