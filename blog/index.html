@@ -4,8 +4,7 @@ body-class: gray-hero
 ---
 
 <div class="ui vertical stripe container segment">
-    <h3 class="ui header">Blog</h3>
-     <div class="ui three stackable link cards">
+     <div class="ui four doubling link cards">
       {% for post in site.posts %}
         <div class="card mix {{post.categories}}">
             <a class="image" href="{{ post.url }}">
@@ -27,4 +26,3 @@ body-class: gray-hero
       {% endfor %}
     </div>
 </div>
-

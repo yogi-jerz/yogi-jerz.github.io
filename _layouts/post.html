@@ -16,10 +16,12 @@ layout: default
         </section>
     </article>
             <section class="section">
-    <div class="ui divided two column center aligned grid">
+    <div class="ui two column center aligned grid">
         <div class="row">
             <div class="column">
                 {% if page.previous %}
+                <img class="ui rounded fluid image" src="{{ page.previous.thumbnail }}">
+                   </br>
                 <a class="ui labeled icon button" href="{{ page.previous.url }}"><i class="left arrow icon"></i>Previous
             Post
 
@@ -28,6 +30,8 @@ layout: default
             </div>
             <div class="column">
                 {% if page.next %}
+                <img class="ui rounded fluid image" src="{{ page.next.thumbnail }}">
+            </br>
                 <a class="ui right labeled icon button" href="{{ page.next.url }}"><i class="right arrow icon"></i>Next Post
 
                     </a>
