@@ -1,6 +1,6 @@
 ---
 layout: default
-body-class: gray-hero
+body-class:
 ---
 <div class="ui container">
 <div class="ui olive secondary pointing menu" style="position:relative; top: 90px;">
@@ -23,13 +23,14 @@ body-class: gray-hero
             <a class="image" href="{{ post.url }}">
                 <img src="{{ post.thumbnail }}">
             </a>
-            <div class="content">
+            <div class="content blog-card-content" data-mh="content">
                 <a href="{{ post.url }}" class="header">{{ post.title }}</a>
                 <div class="meta">
                     <span class="date">{{ post.date | date: "%b %-d, %Y" }}</span>
                 </div>
             </div>
             <div class="extra content">
+              <a class="ui basic olive button">Read</a>
                 <span>
                   <i class="tag icon"></i>
                  <span style="text-transform: capitalize;">{{post.categories}}</span>
@@ -40,7 +41,9 @@ body-class: gray-hero
     </div>
 </div>
 <script>
+
    $(function () {
+
 
       $('#Container').mixItUp({
         animation: {
