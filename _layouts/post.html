@@ -58,9 +58,11 @@ layout: default
                     </h4>
                     <div class="description">
                         <p>{{ site.author-bio }}</p>
-                        <section class="subsection">
-                            {% include social.html %}
-                        </section>
+                        {% if page.social %}
+                            <section class="subsection">
+                                {% include social.html %}
+                            </section>
+                        {% endif %}
                     </div>
                 </div>
             </div>

@@ -3,6 +3,7 @@ layout: post
 title:  My Favorite Home Remedies for Cold Season
 date:   2016-01-20
 comments: true
+social: false
 categories: Wellness
 featured-image: /images/lemon-tea-featured.jpg
 thumbnail:  /images/lemon-tea-thumb.jpg

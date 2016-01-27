@@ -3,6 +3,7 @@ layout: post
 title:  5 Reasons Yoga Travel Tree's Teacher Training Is Not Your Average 200 Hour
 date:   2015-07-19
 comments: true
+social: false
 categories: Teacher-Training
 featured-image: /images/ytt-sunset.JPG
 thumbnail:  /images/ytt-sunset.JPG

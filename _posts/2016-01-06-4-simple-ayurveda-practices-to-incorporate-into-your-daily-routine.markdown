@@ -3,6 +3,7 @@ layout: post
 title:  4 Simple Ayurvedic Practices to Incorporate Into Your Daily Routine
 date:   2016-01-06
 comments: true
+social: false
 categories: Ayurveda
 featured-image: /images/ayurveda_image.jpg
 thumbnail:  /images/ayurveda_image-thumb.jpg
