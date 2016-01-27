@@ -1,10 +1,7 @@
 # Site settings
 title: Yogi-Jerz
 email: your-email@domain.com
-description: > # this means to ignore newlines until "baseurl:"
-  Write an awesome description for your new site here. You can edit this
-  line in _config.yml. It will appear in your document head meta (for
-  Google search results) and in your feed.xml site description.
+description: > # Jersey first came to yoga as a place to quiet her busy mind and relieve stress. Throughout the years, she has consistently gravitated towards the slower practices of Hatha and Yin, but she has also come to appreciate the sweat and flow of a Vinyasa class. She has found that a daily practice of asana and meditation, combined with a conscious whole foods diet, is the perfect recipe for feeling healthy and happy. Jersey received her 200 RYT through Satyam Yoga School in 2015 and she loves teaching new and seasoned students alike. A lover of all things outdoors, Jersey especially loves skiing in mountains and swimming in lakes. She is currently teaching yoga in Portland, Maine and lives with her husband and pup.
 baseurl: "/" # the subpath of your site, e.g. /blog/
 url: "http://yogi-jerz.github.io/" # the base hostname & protocol for your site
 twitter_username: yogi-jerz
