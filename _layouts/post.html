@@ -67,13 +67,3 @@ layout: default
         </div>
     </section>
     {% if page.comments %} {% include disqus.html %} {% endif %}
-    <script>
-    $(document).ready(function() {
-        var touch = Modernizr.touch;
-        $('.parallax').imageScroll({
-            imageAttribute: (touch === true) ? 'image-mobile' : 'image',
-            touch: touch,
-            speed: 0.7
-        });
-    });
-    </script>
