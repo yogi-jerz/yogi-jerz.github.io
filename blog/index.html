@@ -5,7 +5,7 @@ body-class: gray-hero
 <div class="ui container">
 <div class="ui olive secondary pointing menu" style="position:relative; top: 90px;">
 {% for category in site.categories %}
-  <a class="item filter" data-filter=".{{ category | first }}">
+  <a class="item filter" data-filter=".{{ category | first }}" style="text-transform: capitalize;">
     {{ category | first }}
   </a>
     {% endfor %}
