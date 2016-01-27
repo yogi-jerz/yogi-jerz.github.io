@@ -4,14 +4,15 @@ body-class: gray-hero
 ---
 <div class="ui container">
 <div class="ui olive secondary pointing menu" style="position:relative; top: 90px;">
+    <a class="item filter" data-filter=".all" id="Reset">
+    All
+  </a>
 {% for category in site.categories %}
   <a class="item filter" data-filter=".{{ category | first }}" style="text-transform: capitalize;">
     {{ category | first }}
   </a>
     {% endfor %}
-  <a class="item filter" data-filter=".all" id="Reset">
-    All
-  </a>
+
 </div>
 </div>
 
@@ -46,7 +47,8 @@ body-class: gray-hero
             enable: false
         }
     });
-
+        
+        $('#Reset').addClass('active');
         $('#Reset').on('click', function() {
             $('#Container').mixItUp('filter', 'all');
              $('#Reset').addClass('active');
