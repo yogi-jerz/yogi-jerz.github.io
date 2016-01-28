@@ -92,8 +92,10 @@ video {
       border-bottom: 1px solid rgba(189, 195, 199, 0.42);
 }
 .masthead h2.ui.header {
-  font-size: 2em;
-  font-weight: normal;
+      font-size: 2em;
+    font-weight: normal;
+    word-spacing: 1px;
+    letter-spacing: 2px;
 }
 
 .ui.vertical.stripe {
