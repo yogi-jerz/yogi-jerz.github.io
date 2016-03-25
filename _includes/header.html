@@ -1,13 +1,14 @@
 <div class="ui borderless main menu fixed">
     <div class="ui container">
-        <a class=" header item" href="/">
+         {% assign current = page.url | downcase | split: '/' %}
+        <a class=" header item {% if page.url == "/" %} active {% endif %}" href="/">
             <img class="logo" src="/images/logo.png" />
         </a>
-        <a class="item" href="/#about-me">About</a> 
-        <a class="item" href="/blog/">Blog</a> 
-        <a class="item" href="/offerings/">Offerings</a> 
+        <a class="item " href="/#about-me">About</a> 
+        <a class="item {% if current[1] == 'blog' %} active {% endif %}" href="/blog/">Blog</a> 
+        <a class="item {% if current[1] == 'offerings' %} active {% endif %}" href="/offerings/">Offerings</a> 
         <div class="right item">
-            <a href="/contact/" class="ui circular basic olive button">Contact</a>
+            <a href="/contact/" class="ui circular basic olive button {% if current[1] == 'contact' %} active {% endif %}">Contact</a>
         </div>
     </div>
 </div>
