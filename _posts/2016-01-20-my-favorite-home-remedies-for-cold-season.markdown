@@ -31,7 +31,7 @@ My new favorite concoction! I found this recipe on an Ayurveda blog when I felt 
 
 To make the tea, bring two cups of water to boil in a small saucepan. Combine spices in a tea infuser. (If you do not have the equipment for steeping tea, you can simply add the spices to the water. It will taste the same, but there will just be a layer of sludge on the bottom of your mug). Add all ingredients and steep for 10 minutes. Sip slowly and enjoy!
 
-##Oregano Oil 
+## Oregano Oil 
 
 One of my favorite yoga teachers recommended Oregano Oil to me a couple of years ago and I have been hooked ever since. This is my very first go-to when I feel the inklings of a cold coming on - a couple of drops under the tongue and I’m good-to-go!
 
@@ -41,7 +41,7 @@ There are a variety of ways to ingest oregano oil, but I have found 3-4 drops un
 
 It should be noted that oregano oil should be avoided by people with high blood pressure or heart conditions, pregnant or nursing women, and children and infants. 
 
-##Eucalyptus Steam
+## Eucalyptus Steam
 
 Ahh, the eucalyptus steam - the worst enemy of sinus congestion! If my cold gets far enough that I’m stuffed up or have sinus pressure, a eucalyptus steam is in order.  Eucalyptus oil is antiviral, antibacterial and a decongestant. Ten minutes of steam inhalation with eucalyptus and my sinuses and nasal passages are blissfully unblocked.
 
@@ -49,13 +49,13 @@ For a eucalyptus steam, heat water in a saucepan on the stovetop and transfer to
 
 Steams are not recommended for those who suffer from asthma and eucalyptus oil has contraindications for those who suffer from congestive heart failure or high blood pressure. To learn more about using essential oils at home, consider checking out Julie Lawless’ The Illustrated Guide of Essential Oils.
 
-##Saltwater Gargle
+## Saltwater Gargle
 
 Hasn’t every kid with a sore throat had to endure the saltwater gargle? This was the first thing my mom made me do whenever I was sick and I hated it! Turns out, she was right - the saltwater gargle is tried and true. Not only does the combination of salt and warm water provide symptomatic relief, but the salt actually works to rid the virus by pulling potentially infected tissues out of the throat. If I gargle consistently at the first sign of a sore throat, my symptoms usually disappear within a day.
 
 Give it a try: mix 1 tablespoon of salt with 8 ounces of warm water...and gargle! I usually gargle 5 times for 10 seconds each - or however long I can stomach it. Repeat as often as once an hour or until symptoms subside.
 
-##Epsom Salt Bath
+## Epsom Salt Bath
 
 Taking a bath with epsom salts is an old-school remedy that should not be overlooked. The salts draw out the toxins through your skin (your body’s largest organ) while the magnesium and sulfur in the salt aid in the healing process. Add 1 cup of Epsom salts (my favorite is Dr Teal’s Eucalyptus Spearmint) to your bath and soak for at least 20 minutes. Taking a bath is the perfect way to slow down, relax and unwind - which are all things you should be doing if you’re sick anyway! Don’t forget to drink plenty of water while you bathe, so that you may rehydrate your body during the detox.
 
