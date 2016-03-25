@@ -1,16 +1,19 @@
 <div class="ui borderless main menu fixed">
     <div class="ui container">
         <a class=" header item" href="/">
-          <img class="logo" src="/images/logo.png" />
+            <img class="logo" src="/images/logo.png" />
         </a>
-       
-        <a class="item" href="/#about-me">About</a>
-  
-         {% if page.url == "/blog/index.html" %}
-        <a class="item active" href="/blog/">Blog</a>
-              {% else %}
-                 <a class="item" href="/blog/">Blog</a>
-                 {% endif %}
+        <a class="item" href="/#about-me">About</a> 
+        {% if page.url == "/blog/index.html" %}
+        <a class="item active" href="/blog/">Blog</a> 
+        {% else %}
+        <a class="item" href="/blog/">Blog</a> 
+        {% endif %} 
+        {% if page.url == "/offerings/index.html" %}
+        <a class="item active" href="/offerings/">Offerings</a> 
+        {% else %}
+        <a class="item" href="/offerings/">Offerings</a> 
+        {% endif %}
         <div class="right item">
             <a href="/contact/" class="ui circular basic olive button">Contact</a>
         </div>
