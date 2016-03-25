@@ -16,7 +16,7 @@ With the passing of the new year, winter has finally arrived in New England. Ski
 
 In my experience, the best prevention for the winter cold or flu is early detection. The minute I feel my body is slightly off, I turn to one (or all) of these home remedies - depending on the ailment.* The use of these home remedies, combined with plenty of water and lots of rest, is usually enough to get me back on track.
 
-##Turmeric Ginger Lemon Tea 
+## Turmeric Ginger Lemon Tea 
 
 My new favorite concoction! I found this recipe on an Ayurveda blog when I felt a cold coming on and after drinking it for two days, my symptoms disappeared. This spice blend packs a serious 1-2 punch for your immune system: ginger is anti-inflammatory and an immune booster, turmeric is antibacterial, antiviral and an anti-inflammatory powerhouse, cinnamon is an expectorant and decongestant and clove enhances your body’s circulation and metabolism. Lemon is excellent for detoxing and the honey soothes the upper respiratory tract, while also making it a sweet and enjoyable treat.
 
