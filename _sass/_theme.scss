@@ -1,5 +1,6 @@
 p,
-body {
+body,
+input {
   font-family: 'Lora', serif!important;
 }
 p {
@@ -14,8 +15,10 @@ h3,
 h4,
 h5,
 h6,
-.ui.cards>.card>.content>.header {
-font-family: 'Bree Serif', serif!important;
+.ui.cards>.card>.content>.header,
+.ui.button,
+.ui.menu {
+font-family: 'Istok Web', sans-serif!important;
 }
 
 
@@ -78,7 +81,7 @@ video {
   margin-top: 2em;
   margin-bottom: 0em;
   font-size: 6em;
-  font-weight: normal;
+  font-weight: 800;
   @media only screen and (max-width: 700px) {
     font-size: 2em;
   }
@@ -89,7 +92,7 @@ video {
 }
 .masthead h2.ui.header {
       font-size: 2em;
-    font-weight: normal;
+    font-weight: 800;
     word-spacing: 1px;
     letter-spacing: 2px;
 }
