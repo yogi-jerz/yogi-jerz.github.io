@@ -1,5 +1,8 @@
-p {
+p,
+body {
   font-family: 'Lora', serif!important;
+}
+p {
   font-size: 1.4rem;
   @media (max-width: 630px){
     font-size: 1.1rem;
@@ -10,9 +13,11 @@ h2,
 h3,
 h4,
 h5,
-h6 {
+h6,
+.ui.cards>.card>.content>.header {
 font-family: 'Bree Serif', serif!important;
 }
+
 
 #about-me {
 
@@ -41,15 +46,6 @@ video {
   margin-top: 3rem;
 }
 
-.date {
-  display: inline-block;
-  font-weight: 400;
-  font-size: .85714286em;
-  font-style: normal;
-  margin: 0 0 0 .5em;
-  padding: 0;
-  color: rgba(0, 0, 0, .4);
-}
 .social-wrap {
   float: right;
 }
