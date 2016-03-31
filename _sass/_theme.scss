@@ -1,6 +1,7 @@
 p,
 body,
-input {
+input,
+.ui.text.container {
   font-family: 'Lora', serif!important;
 }
 p {
@@ -21,7 +22,10 @@ h6,
 font-family: 'Bree Serif', sans-serif!important;
 }
 
-
+ul {
+  font-size: 1.3em;
+  line-height: 1.5;
+}
 #about-me {
 
   p {

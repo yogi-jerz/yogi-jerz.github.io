@@ -1,14 +1,27 @@
 <div class="ui borderless main menu fixed">
     <div class="ui container">
-         {% assign current = page.url | downcase | split: '/' %}
+        {% assign current = page.url | downcase | split: '/' %}
         <a class=" header item" href="/">
             <img class="logo" src="/images/logo.png" />
         </a>
-        <a class="item " href="/#about-me">About</a> 
-        <a class="item {% if current[1] == 'blog' %} active {% endif %}" href="/blog/">Blog</a> 
-        <a class="item {% if current[1] == 'offerings' %} active {% endif %}" href="/offerings/">Offerings</a> 
+        <a class="item " href="/#about-me">About</a>
+        <a class="item {% if current[1] == 'blog' %} active {% endif %}" href="/blog/">Blog</a>
+        <div class="ui pointing dropdown link item">
+            Offerings
+            <i class="dropdown icon"></i>
+            <div class="menu">
+              <a class="item" href="/teaching-schedule/">Teaching Schedule</a>
+              <a class="item" href="/private-sessions/">Private Sessions</a>
+              <a class="item" href="/corporate-classes/">Corporate Classes</a>
+            </div>
+        </div>
         <div class="right item">
             <a href="/contact/" class="ui circular basic olive button">Contact</a>
         </div>
     </div>
 </div>
+<script>
+$(document).ready(function() {
+    $('.ui.dropdown').dropdown();
+});
+</script>
